@@ -1,24 +1,7 @@
-// 3. Создать класс данных “Товар”
-// С полями
-// Название
-// Цена
-// Количество
-// Описание
-// Наполнить массив объектами такого класса.
-// Написать метод, который получает строку вида
-// “name-contains-fd&price-=2&quantity->5&description-ends-abc”
-// “name-starts-fd&quantity-=5”
-// На выходе возвращает массив, только с подходящими объектами
-// возможны (contains, starts, ends для строковых и <,=,>, <=,>= для числовых)
-
-
-
-
-
-    <!doctype html>
-    <script type="module">
-      import { modulesForString } from './module-for-string.js'
-      import { modulesForNumber } from './module-for-number.js'
+<!doctype html>
+<script type="module">
+  import { modulesForString } from './module-for-string.js'
+  import { modulesForNumber } from './module-for-number.js'
 
       // console.log(modulesForString.ucFirst('asdasd'))
       // console.log(modulesForString.spaces('Вот пример строки,в которой     используются знаки препинания.После знаков должны стоять пробелы , а перед знаками их быть не должно .    Если есть лишние подряд идущие пробелы, они должны быть устранены.'))
@@ -30,4 +13,4 @@
       // console.log(modulesForNumber.mul(59346872963598734258973625872349857634285634295634928763249876347852n, 857203465273465834275693274563456928345n))
       // console.log(modulesForNumber.dev(59346872963598734258973625872349857634285634295634928763249876347852n, 857203465273465834275693274563456928345n))
 
-    </script>
+</script>
